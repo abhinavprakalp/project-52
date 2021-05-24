@@ -1,0 +1,101 @@
+.grid{
+    background-image: url("back ground.jpg") ;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    border: solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+p{
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.press{
+    background-color: darkgreen;
+    color: deeppink;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+}
+
+.item{
+    background-color: chocolate;
+    border-radius: 10px;
+    border-bottom: solid;
+    border-width: 5px;
+    margin: 30px;
+    position: relative;
+    opacity: 1;
+}
+
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
+.item:hover img{
+    transform: scale(1.2);
+}
+
+.header{
+    background-color: blanchedalmond;
+    display :flex;
+    justify-content: center;
+    padding: 30px;
+    margin: 10px;
+}
+
+.menu{
+    background-color : gainsboro;
+    display :flex;
+    justify-content: space-evenly;
+    padding: 25px;
+    margin: 10px;
+    border: solid #000000;
+}
+
+a:link{
+    color: #a8b62b;
+    font-size: 25px;
+}
+
+a:visited{
+    color: #000000;
+}
+
+.origami{
+    background-color: chartreuse;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin: 10px;
+}
+
+.follow{
+    background-color: cyan;
+    text-align: left;
+    font-size: x-large;
+    margin: 10px;
+}
+
+.last{
+    border: solid;
+    background-color: crimson;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
